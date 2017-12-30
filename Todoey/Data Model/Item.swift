@@ -8,9 +8,8 @@
 
 import Foundation
 
-class Item {
-    let title : String
-    
+class Item: Codable {
+    var title : String
     var done = false
     
     init(toDoTitle: String){
